@@ -1,0 +1,24 @@
+PODS:
+  - IQDropDownTextField (1.1.0)
+  - IQKeyboardManagerSwift (4.0.9)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
+
+DEPENDENCIES:
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift (from `IQKeyboardManager`)
+  - SQLite.swift (~> 0.11.3)
+
+EXTERNAL SOURCES:
+  IQKeyboardManagerSwift:
+    :path: IQKeyboardManager
+
+SPEC CHECKSUMS:
+  IQDropDownTextField: 614f79ca905529c992045eaa112d0fc9ebb875d1
+  IQKeyboardManagerSwift: 5b5d382c25bca464631819288f34a1ad7a5626fb
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+
+PODFILE CHECKSUM: 750b562834881006a2274dbcbd4bcdcb3e95d2e0
+
+COCOAPODS: 1.2.1
