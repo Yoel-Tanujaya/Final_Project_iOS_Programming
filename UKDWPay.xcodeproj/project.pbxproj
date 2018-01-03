@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E10F3EE1EDB175300AAD541 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E10F3ED1EDB175300AAD541 /* LaunchScreen.png */; };
+		3E2484FB1ED9EE8E004D93A5 /* PulsaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2484FA1ED9EE8E004D93A5 /* PulsaData.swift */; };
+		3E61D0A31ED9C32000566245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61D0A21ED9C32000566245 /* AppDelegate.swift */; };
+		3E61D0A51ED9C32000566245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61D0A41ED9C32000566245 /* ViewController.swift */; };
+		3E61D0A81ED9C32000566245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E61D0A61ED9C32000566245 /* Main.storyboard */; };
+		3E61D0AA1ED9C32000566245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E61D0A91ED9C32000566245 /* Assets.xcassets */; };
+		3E61D0AD1ED9C32000566245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E61D0AB1ED9C32000566245 /* LaunchScreen.storyboard */; };
+		3E61D0B51ED9C71F00566245 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61D0B41ED9C71F00566245 /* SQLite.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3E61D0B71ED9C72200566245 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61D0B61ED9C72200566245 /* IQKeyboardManagerSwift.framework */; };
+		3E61D0B91ED9C7F000566245 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61D0B81ED9C7F000566245 /* MenuViewController.swift */; };
+		3E61D0BC1ED9C81F00566245 /* VoucherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61D0BA1ED9C81F00566245 /* VoucherCollectionViewCell.swift */; };
+		3E61D0BD1ED9C81F00566245 /* VoucherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E61D0BB1ED9C81F00566245 /* VoucherCollectionViewCell.xib */; };
+		3E61D0BF1ED9CB9B00566245 /* IQDropDownTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61D0BE1ED9CB9B00566245 /* IQDropDownTextField.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3E7826241EDAD4E500996457 /* PulsaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7826221EDAD4E500996457 /* PulsaTableViewCell.swift */; };
+		3E7826251EDAD4E500996457 /* PulsaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7826231EDAD4E500996457 /* PulsaTableViewCell.xib */; };
+		3E7826271EDAE13800996457 /* XL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7826261EDAE13800996457 /* XL.png */; };
+		3E7826291EDAEAFA00996457 /* TSEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7826281EDAEAFA00996457 /* TSEL.png */; };
+		3E78262D1EDAF35E00996457 /* ISAT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E78262A1EDAF35E00996457 /* ISAT.png */; };
+		3E78262E1EDAF35E00996457 /* SF.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E78262B1EDAF35E00996457 /* SF.png */; };
+		3E7826311EDAFA2300996457 /* TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7826301EDAFA2300996457 /* TRI.png */; };
+		DD87EA86E90946F8732A45A9 /* Pods_UKDWPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE5484E4EF3EC6C7DCE4792 /* Pods_UKDWPay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EE5484E4EF3EC6C7DCE4792 /* Pods_UKDWPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UKDWPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E10F3ED1EDB175300AAD541 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		3E2484FA1ED9EE8E004D93A5 /* PulsaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaData.swift; sourceTree = "<group>"; };
+		3E61D09F1ED9C32000566245 /* UKDWPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKDWPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E61D0A21ED9C32000566245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E61D0A41ED9C32000566245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E61D0A71ED9C32000566245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E61D0A91ED9C32000566245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E61D0AC1ED9C32000566245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E61D0AE1ED9C32000566245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E61D0B41ED9C71F00566245 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../../Library/Developer/Xcode/DerivedData/UKDWPay-ffebimnnrsbcocggqhwrcosfnnzb/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
+		3E61D0B61ED9C72200566245 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/UKDWPay-ffebimnnrsbcocggqhwrcosfnnzb/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"; sourceTree = "<group>"; };
+		3E61D0B81ED9C7F000566245 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3E61D0BA1ED9C81F00566245 /* VoucherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E61D0BB1ED9C81F00566245 /* VoucherCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoucherCollectionViewCell.xib; sourceTree = "<group>"; };
+		3E61D0BE1ED9CB9B00566245 /* IQDropDownTextField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQDropDownTextField.framework; path = "Pods/../build/Release-iphoneos/IQDropDownTextField/IQDropDownTextField.framework"; sourceTree = "<group>"; };
+		3E7826221EDAD4E500996457 /* PulsaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaTableViewCell.swift; sourceTree = "<group>"; };
+		3E7826231EDAD4E500996457 /* PulsaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PulsaTableViewCell.xib; sourceTree = "<group>"; };
+		3E7826261EDAE13800996457 /* XL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XL.png; sourceTree = "<group>"; };
+		3E7826281EDAEAFA00996457 /* TSEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSEL.png; sourceTree = "<group>"; };
+		3E78262A1EDAF35E00996457 /* ISAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISAT.png; sourceTree = "<group>"; };
+		3E78262B1EDAF35E00996457 /* SF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SF.png; sourceTree = "<group>"; };
+		3E7826301EDAFA2300996457 /* TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRI.png; sourceTree = "<group>"; };
+		761E29831A52AE47ED0C014E /* Pods-UKDWPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKDWPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-UKDWPay/Pods-UKDWPay.release.xcconfig"; sourceTree = "<group>"; };
+		E05FEE0EAD16AE61D4D07011 /* Pods-UKDWPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKDWPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UKDWPay/Pods-UKDWPay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E61D09C1ED9C32000566245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E61D0BF1ED9CB9B00566245 /* IQDropDownTextField.framework in Frameworks */,
+				3E61D0B71ED9C72200566245 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				3E61D0B51ED9C71F00566245 /* SQLite.framework in Frameworks */,
+				DD87EA86E90946F8732A45A9 /* Pods_UKDWPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D3810B5B32295A36C22768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05FEE0EAD16AE61D4D07011 /* Pods-UKDWPay.debug.xcconfig */,
+				761E29831A52AE47ED0C014E /* Pods-UKDWPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E61D0961ED9C32000566245 = {
+			isa = PBXGroup;
+			children = (
+				3E61D0A11ED9C32000566245 /* UKDWPay */,
+				3E61D0A01ED9C32000566245 /* Products */,
+				01D3810B5B32295A36C22768 /* Pods */,
+				76FA0D78E0F1C714B84C4AE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E61D0A01ED9C32000566245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E61D09F1ED9C32000566245 /* UKDWPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E61D0A11ED9C32000566245 /* UKDWPay */ = {
+			isa = PBXGroup;
+			children = (
+				3E7826261EDAE13800996457 /* XL.png */,
+				3E7826281EDAEAFA00996457 /* TSEL.png */,
+				3E78262A1EDAF35E00996457 /* ISAT.png */,
+				3E78262B1EDAF35E00996457 /* SF.png */,
+				3E10F3ED1EDB175300AAD541 /* LaunchScreen.png */,
+				3E7826301EDAFA2300996457 /* TRI.png */,
+				3E61D0A21ED9C32000566245 /* AppDelegate.swift */,
+				3E61D0A41ED9C32000566245 /* ViewController.swift */,
+				3E61D0A61ED9C32000566245 /* Main.storyboard */,
+				3E61D0A91ED9C32000566245 /* Assets.xcassets */,
+				3E61D0AB1ED9C32000566245 /* LaunchScreen.storyboard */,
+				3E61D0AE1ED9C32000566245 /* Info.plist */,
+				3E61D0B81ED9C7F000566245 /* MenuViewController.swift */,
+				3E61D0BA1ED9C81F00566245 /* VoucherCollectionViewCell.swift */,
+				3E61D0BB1ED9C81F00566245 /* VoucherCollectionViewCell.xib */,
+				3E2484FA1ED9EE8E004D93A5 /* PulsaData.swift */,
+				3E7826221EDAD4E500996457 /* PulsaTableViewCell.swift */,
+				3E7826231EDAD4E500996457 /* PulsaTableViewCell.xib */,
+			);
+			path = UKDWPay;
+			sourceTree = "<group>";
+		};
+		76FA0D78E0F1C714B84C4AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E61D0BE1ED9CB9B00566245 /* IQDropDownTextField.framework */,
+				3E61D0B61ED9C72200566245 /* IQKeyboardManagerSwift.framework */,
+				3E61D0B41ED9C71F00566245 /* SQLite.framework */,
+				1EE5484E4EF3EC6C7DCE4792 /* Pods_UKDWPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E61D09E1ED9C32000566245 /* UKDWPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E61D0B11ED9C32000566245 /* Build configuration list for PBXNativeTarget "UKDWPay" */;
+			buildPhases = (
+				28FC547D1FC2DF3FACF6FECF /* [CP] Check Pods Manifest.lock */,
+				3E61D09B1ED9C32000566245 /* Sources */,
+				3E61D09C1ED9C32000566245 /* Frameworks */,
+				3E61D09D1ED9C32000566245 /* Resources */,
+				B82FC41C1CC5171BFF50B18D /* [CP] Embed Pods Frameworks */,
+				A749CAA425CCDC9D5CAE4654 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UKDWPay;
+			productName = UKDWPay;
+			productReference = 3E61D09F1ED9C32000566245 /* UKDWPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E61D0971ED9C32000566245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoel Tanujaya";
+				TargetAttributes = {
+					3E61D09E1ED9C32000566245 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E61D09A1ED9C32000566245 /* Build configuration list for PBXProject "UKDWPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E61D0961ED9C32000566245;
+			productRefGroup = 3E61D0A01ED9C32000566245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E61D09E1ED9C32000566245 /* UKDWPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E61D09D1ED9C32000566245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E61D0AD1ED9C32000566245 /* LaunchScreen.storyboard in Resources */,
+				3E61D0BD1ED9C81F00566245 /* VoucherCollectionViewCell.xib in Resources */,
+				3E10F3EE1EDB175300AAD541 /* LaunchScreen.png in Resources */,
+				3E78262E1EDAF35E00996457 /* SF.png in Resources */,
+				3E7826311EDAFA2300996457 /* TRI.png in Resources */,
+				3E7826251EDAD4E500996457 /* PulsaTableViewCell.xib in Resources */,
+				3E7826291EDAEAFA00996457 /* TSEL.png in Resources */,
+				3E78262D1EDAF35E00996457 /* ISAT.png in Resources */,
+				3E7826271EDAE13800996457 /* XL.png in Resources */,
+				3E61D0AA1ED9C32000566245 /* Assets.xcassets in Resources */,
+				3E61D0A81ED9C32000566245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28FC547D1FC2DF3FACF6FECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A749CAA425CCDC9D5CAE4654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UKDWPay/Pods-UKDWPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82FC41C1CC5171BFF50B18D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UKDWPay/Pods-UKDWPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E61D09B1ED9C32000566245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E61D0A51ED9C32000566245 /* ViewController.swift in Sources */,
+				3E61D0BC1ED9C81F00566245 /* VoucherCollectionViewCell.swift in Sources */,
+				3E61D0B91ED9C7F000566245 /* MenuViewController.swift in Sources */,
+				3E7826241EDAD4E500996457 /* PulsaTableViewCell.swift in Sources */,
+				3E61D0A31ED9C32000566245 /* AppDelegate.swift in Sources */,
+				3E2484FB1ED9EE8E004D93A5 /* PulsaData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E61D0A61ED9C32000566245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E61D0A71ED9C32000566245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E61D0AB1ED9C32000566245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E61D0AC1ED9C32000566245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E61D0AF1ED9C32000566245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E61D0B01ED9C32000566245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E61D0B21ED9C32000566245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05FEE0EAD16AE61D4D07011 /* Pods-UKDWPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = UKDWPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.ukdw.fti.yoeltanujaya.UKDWPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E61D0B31ED9C32000566245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761E29831A52AE47ED0C014E /* Pods-UKDWPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = UKDWPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.ukdw.fti.yoeltanujaya.UKDWPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E61D09A1ED9C32000566245 /* Build configuration list for PBXProject "UKDWPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E61D0AF1ED9C32000566245 /* Debug */,
+				3E61D0B01ED9C32000566245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E61D0B11ED9C32000566245 /* Build configuration list for PBXNativeTarget "UKDWPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E61D0B21ED9C32000566245 /* Debug */,
+				3E61D0B31ED9C32000566245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E61D0971ED9C32000566245 /* Project object */;
+}
